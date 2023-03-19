@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 49px 450px 1fr 49px;
+    margin: 0;
+
+}
+header,footer{
+    color: white;
+}
+img{
+   border-radius: 60px;
+   height:100px
+}
+header{
+    background-color: skyblue;
+}
+
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    background-color: #cfd8dd;
+   justify-content: center;
+    align-items: center;
+    
+
+}
+#texte{
+margin-left: 90px;
+}
+
+
+input{
+    width: 500px;
+    padding: 12px;
+    
+}
+#formulaire{
+   margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#uspass{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#button{
+    margin-top: 70px;
+    width: 520px;
+  
+
+}
+
+
+
+
+
+footer{
+    background-color: skyblue;
+}
+
+
+

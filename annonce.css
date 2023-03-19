@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 140px  1fr 49px;
+    margin: 0;
+}
+#itemsH{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin-top: 50px;
+}
+header,footer{
+    background-color: skyblue;
+}
+header,footer{
+    color: white;
+}
+#annonce1{
+    display: flex;
+   
+}
+#priceandtime{
+    display: flex;
+    gap: 60px;
+}
+#other{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
